@@ -477,6 +477,18 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+
+  #header h1{
+    color: #fff;
+  }
+
+  #header p{
+    color: #fff;
+  }
+
+  #header .social-item img{
+    filter: invert(1);
+  }
   /* For mobile phones: */
   .header .nav-list ul li a {
     font-size: 1.1rem;
